@@ -7,7 +7,7 @@ const useCardPhrases = () => {
   const generateRandomCard = useCallback(() => {
     const shuffledPhrases = phrases.sort(() => 0.5 - Math.random());
     const selectedPhrases = shuffledPhrases.slice(0, 24);
-    selectedPhrases.splice(12, 0, "Confo Call 😷 Bingo");
+    selectedPhrases.splice(12, 0, "DXCO 🥳");
     setCardPhrases(selectedPhrases);
   }, []);
 
