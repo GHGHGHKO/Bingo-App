@@ -89,7 +89,7 @@ const BingoCard = () => {
         <>
           {/* Added winLines.length as key to WinAnimation */}
           <div key={winLines.length}>
-            <WinAnimation show={winLines.length > 0} />
+            <WinAnimation show={winLines.length > 2} />
             <FireworksDisplay show={winLines.length > 0} />
           </div>
         </>
